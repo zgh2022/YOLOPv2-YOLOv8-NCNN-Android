@@ -1,5 +1,8 @@
 ## YOLOPv2-YOLOv8-NCNN-Android
-闲来无事写的一个简单的安卓项目，将YOLOPv2和YOLOv8的模型用NCNN运行，并用YOLOv8的目标检测替换了YOLOPv2中的目标检测部分，并添加了几个可选功能：
+闲来无事写的一个简单的安卓项目，将YOLOPv2和YOLOv8的模型用NCNN运行，用YOLOv8的目标检测替换了YOLOPv2中的目标检测部分，并写成了c++的多线程保证实时性（所以就不计算帧率了，没意义），骁龙8+手机模型计算耗时和效果图如下（来自手机录屏）：
+![Screenrecorder-2024-10-02-19-00-40-691 00-01-20 20241003-122219430](https://github.com/user-attachments/assets/e4214cb5-c461-459c-b7c9-ea2333b8c37e)
+
+添加了几个可选功能：
 1、可选择的三个任务的计算与绘制：目标检测、车道线识别、可行驶区域识别
 ![Screenrecorder-2024-10-02-19-00-40-691 00-01-29 20241003-113620681 (1)(1)](https://github.com/user-attachments/assets/658ed16f-48d0-44b7-a46b-9860d9586d13)
 
@@ -7,6 +10,7 @@
 ![Screenrecorder-2024-10-02-19-00-40-691 00-00-45 20241003-113526658 (1)(1)](https://github.com/user-attachments/assets/b133db8d-d53d-4cd0-884c-f0471b1c010d)
 
 3、CPU和GPU切换（建议首次运行后马上点开GPU,保证性能）
+
 项目工程里面给了安卓实现
 
 ### 目前问题
