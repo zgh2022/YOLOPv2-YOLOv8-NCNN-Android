@@ -18,7 +18,7 @@
 2. 安卓工程并没有做尺寸调整，固定yolopv2的输入为320，而yolov8为640
 
 ### 安卓结果
-我也导出了APP，给大家下载玩玩: 通过网盘分享的文件：yolopv2-yolov8-ncnn-release.apk
+我也导出了APP，给大家下载玩玩: （建议首次运行后马上点开GPU,保证性能）
 链接: https://pan.baidu.com/s/1R6TnjWUQuDW3sgJyeBZRjQ?pwd=ykfu 提取码: ykfu
 
 ## screenshot
