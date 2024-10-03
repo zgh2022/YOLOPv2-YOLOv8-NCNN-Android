@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    ndkVersion '21.4.7075529'
+
+    defaultConfig {
+        applicationId "com.tencent.yolopv2"
+        archivesBaseName = "$applicationId"
+        minSdkVersion 24
+    }
+
+    externalNativeBuild {
+        cmake {
+            version "3.10.2.4988404"
+            path file('src/main/jni/CMakeLists.txt')
+        }
+    }
+
+    dependencies {
+        implementation 'com.android.support:support-v4:24.0.0'
+    }
+
+}

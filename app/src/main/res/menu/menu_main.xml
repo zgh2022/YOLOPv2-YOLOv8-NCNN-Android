@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_cpu"
+        android:title="CPU" />
+    <item
+        android:id="@+id/menu_gpu"
+        android:title="GPU" />
+    <item
+        android:id="@+id/menu_drivable"
+        android:title="Drivable Area"
+        android:checkable="true" />
+    <item
+        android:id="@+id/menu_lane"
+        android:title="Lane Detection"
+        android:checkable="true" />
+    <item
+        android:id="@+id/menu_detection"
+        android:title="Object Detection"
+        android:checkable="true" />
+    <item
+        android:id="@+id/menu_zoom"
+        android:title="Zoom" />
+</menu>

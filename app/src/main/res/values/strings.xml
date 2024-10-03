@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yolopv2-yolov8</string>
+    <string name="title">yolopv2-yolov8-ncnn-android</string>
+    <string-array name="core_array">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+</resources>
