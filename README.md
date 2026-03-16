@@ -42,4 +42,3 @@ https://github.com/CAIC-AD/YOLOPv2
 https://github.com/Tencent/ncnn
 
 ## If this helped you, don't forget to Star 🌟 the repo.
-## 另外 合肥 视觉方面的工作可以联系我
